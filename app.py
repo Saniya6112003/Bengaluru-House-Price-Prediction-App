@@ -11,9 +11,9 @@ from streamlit_lottie import st_lottie #install this package
 with open("RF_Model.pkl",'rb') as file:
     model = pickle.load(file)
 
-st.set_page_config(page_title="Bengaluru House price predictor",page_icon="icons/house_logo.png",initial_sidebar_state="expanded",layout="wide")
+st.set_page_config(page_title="Bengaluru House price predictor",page_icon="house_logo.png",initial_sidebar_state="expanded",layout="wide")
 st.sidebar.subheader("House Price Predictor")
-st.sidebar.image("icons/house_logo.png",width=150)
+st.sidebar.image("house_logo.png",width=150)
 
 st.subheader("Welcome! to House Price Predictor 💰")
 #load the data
@@ -107,4 +107,5 @@ elif selection == "Dashboard":
 
             b2.line_chart(x='total_sqft',y='price',data=df,height=350)
 elif selection == "Sample Data":
+
     st.dataframe(df.sample(20),height=300,hide_index=True)
