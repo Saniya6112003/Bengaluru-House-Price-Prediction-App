@@ -1,12 +1,12 @@
 
-#🏡 Bengaluru House Price Prediction App
+# 🏡 Bengaluru House Price Prediction App
 
-##This is a live Streamlit application that utilizes machine learning to predict house prices in Bengaluru (Bangalore), India, based on various residential property features.
+## This is a live Streamlit application that utilizes machine learning to predict house prices in Bengaluru (Bangalore), India, based on various residential property features.
 
-##View the Live Application Here:
+## View the Live Application Here:
 https://bengaluru-house-price-prediction-app-bysaniya.streamlit.app/
 
-##✨ App Highlights: Why It Works for You
+## ✨ App Highlights: Why It Works for You
 ⚡ Instant Valuation: Get house price predictions in real-time as you adjust property details.
 
 🎯 Hyper-Local Accuracy: Model accounts for specific Bengaluru neighborhoods for more precise estimates.
@@ -21,7 +21,7 @@ https://bengaluru-house-price-prediction-app-bysaniya.streamlit.app/
 
 📊 Investor-Friendly Metrics: Compare predicted values in Local Currency (Lakhs) for fast, informed decision-making.
 
-##📂 Data and Model Information
+## 📂 Data and Model Information
 
 The Data Source 📊
 The model was trained on a comprehensive dataset of over 13,000 recorded real estate transactions in Bengaluru.
@@ -31,7 +31,7 @@ Key features used in the model include Location, Area Type, Square Footage, and 
 Model Persistence 🧠
 The trained machine learning model is saved as a binary file (model.pkl) to ensure fast loading times and instant predictions when the app runs.
 
-##🤝 Connect & Collaborate
+## 🤝 Connect & Collaborate
 I'm Saniya, the developer behind this project! I'm passionate about deploying useful machine learning tools and welcome your engagement.
 
 Developer: Saniya
